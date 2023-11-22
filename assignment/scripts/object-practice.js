@@ -28,7 +28,7 @@ console.log('A little about me:', me);
 */
 
  console.log('My name is',`${me.firstName} ${me.lastName}`);
-fullName = console.log(`${me.firstName} ${me.lastName}`);
+fullName = console.log('fullName:',`${me.firstName} ${me.lastName}`);
 
 
 /* 3. Nested arrays
@@ -51,7 +51,7 @@ console.log('Another way to console lastFoodItem:', lastFoodItem);
   - Console.log your updated shoe count. 
 */
 
-console.log(me.shoeCount);
+console.log('shoeCount:', me.shoeCount);
 
 shoeCount = me.shoeCount+=1;
 console.log('shoeCount plus 1:', shoeCount);
